@@ -48,6 +48,9 @@ ul { list-style: none; }
 .logo-mg { font-family: var(--font-heading); font-size: 28px; font-weight: 700; color: var(--gold); line-height: 1; }
 .logo-text { font-size: 13px; font-weight: 500; color: var(--white); letter-spacing: 0.5px; transition: var(--transition); }
 .navbar.scrolled .logo-text { color: var(--dark); }
+.nav-logo-img { height: 52px; width: auto; object-fit: contain; transition: var(--transition); }
+.navbar.scrolled .nav-logo-img { content: url('../images/logo-black.png'); }
+.footer-logo-img { height: 52px; width: auto; object-fit: contain; }
 .nav-menu { display: flex; align-items: center; gap: 36px; }
 .nav-link { font-size: 14px; font-weight: 500; color: var(--white); transition: var(--transition); position: relative; }
 .navbar.scrolled .nav-link { color: var(--text); }
